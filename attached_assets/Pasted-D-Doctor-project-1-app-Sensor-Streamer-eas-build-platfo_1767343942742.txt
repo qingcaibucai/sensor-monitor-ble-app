@@ -1,0 +1,22 @@
+D:\Doctor\project 1\app的制备\Sensor-Streamer>eas build --platform android --profile preview
+Using EAS CLI without version control system is not recommended, use this mode only if you know what you are doing.
+Failed to get Git root path with `git rev-parse --show-toplevel`. Error: spawn git ENOENT
+Falling back to using current working directory as project root.
+You can set `EAS_PROJECT_ROOT` environment variable to let eas-cli know where your project is located.
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+
+
+√ Using remote Android credentials (Expo server)
+√ Using Keystore from configuration: Build Credentials _vGko6J8Pb (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+× Uploading to EAS Build (128 KB / 4.6 MB)
+Failed to upload the project tarball to EAS Build
+
+Reason: request to https://storage.googleapis.com/turtle-v2-projects/production/f6f6487e-645a-45cd-aea0-b2d39baa13e0/d97343b6-dc08-4aec-8d55-ba0084d4ba0d?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260102%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260102T085132Z&X-Goog-Expires=3600&X-Goog-SignedHeaders=host%3Bx-goog-content-length-range&X-Goog-Signature=20e0b94d981f6e1e068f18cd2eaed0fa04c5216df605254fbb65fc69bd1be63c67e4ed686d004fd0394ad838f0a2c1c3d5891eeda47862b3df4b675f6d6e86b1ef83fa9e3e7286b9c429657db17c7dd85cfdebb5122b405ca3c76f926ad42463962ec2957f28cd88d6b42fb8b3d1f87b894bc98bb96cbd0e7e38a9119539ac385c70341c026b0a2cf60c59ae905d20f83d496dc4b55c50c25ce81653d8632801a2868159ddc1fc5a570b59398f79d99becc284928a9216a48642c8d5f8051f638940111783383fd6950682727dbabe34dff3959f26f3f2e020885fc0486d69231bc65c838ab40702a29fe0a7732dd0c4b07f8ee7d80e252c5f49763be4beccf9 failed, reason: read ECONNRESET
+Failed to upload metadata to EAS Build
+
+Reason: request to https://storage.googleapis.com/turtle-v2-projects-metadata/production/f6f6487e-645a-45cd-aea0-b2d39baa13e0/3f980f43-2c9b-4100-ad5b-163c2a426b03?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260102%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260102T085133Z&X-Goog-Expires=3600&X-Goog-SignedHeaders=host%3Bx-goog-content-length-range&X-Goog-Signature=072a38791b1ff523d35b871bbbaa5d07ec3fb93696d2acd09264bb33bcaa3805e608926dab41caa68d521d88b3db7ef0ab7b52680ec3569619f457f83bd6d45d1dc5c37fb59e83adab4ae01a890fd196ec73b5259ace4c97ba5a617273bf8dfb5b7d76c0907a405fc183de8110b982c4e1cb76ebd4a9922e16584cb53207e6972bfbc8b8e777c52256177e5bb89aa81c9c9297bb737ce4f2e3680a21230bab750e11a09d2ae0488f1c99f3fda87963ab93762126445ff5785ba7fd7aa7d01f8dddecf07ccc60e471871f548a912916bee17657fe48dcc72bb9b22308d7bea0c267a38c1154438c4df6c7e51aed162a9dc0cf7d35c0bdfb7e237dcb8719c9398b failed, reason: read ECONNRESET
+    Error: build command failed.
